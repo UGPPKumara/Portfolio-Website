@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kristi&display=swap');
+
+:root {
+  --main-color: #55527c;
+  --dark-color: #130f49;
+  --yellow-color: #ff972d;
+  --blue-color: #a5a6ff;
+  --white: #ffffff;
+}
+.main{
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: row;
+}

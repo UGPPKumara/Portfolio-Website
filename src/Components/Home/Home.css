@@ -1,0 +1,118 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(239, 251, 248);
+    color: rgb(0, 0, 0);
+}
+.home-left{
+    width: 50%;
+    padding: 2.5rem;
+}
+.home-left h1{
+    font-size: 3rem;
+    font-family: "Inter", sans-serif;
+    color: var(--dark-color);
+}
+.home-left h1 span{
+    color: var(--blue-color);
+}
+
+.animated-text {
+    font-size: 2em;
+    animation: fade 4s infinite;
+  }
+  
+  @keyframes fade {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+.home-left p{
+    font-size: 16px;
+    line-height: 2;
+    font-family: "Karla", sans-serif;
+    color: var(--main-color);
+    padding: 1rem 0;
+}
+.home-left-content-buttons{
+    display: flex;
+    gap: 1rem;
+}
+.home-left-content-buttons a{
+    text-decoration: none;
+
+}
+.home-left-content-buttons .about button{
+    padding: 1rem 2rem;
+    background-color: var(--dark-color);
+    border: 2px solid var(--dark-color);
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+}
+.home-left-content-buttons .about button:hover{
+    background-color: transparent;
+    border: 2px solid var(--dark-color);
+    color: var(--dark-color);
+    transition: 800ms;
+}
+.home-left-content-buttons  .download button{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+}
+.home-left-content-buttons  .download button:hover{
+    background-color: var(--dark-color);
+    color: var(--white);
+    transition: 800ms;
+}
+.home-left .info ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem ;
+    gap: 1rem;
+    list-style: none;
+    color: var(--dark-color);
+    font-weight: 700;
+    position: relative;
+}
+.home-left .info ul li{
+    padding-left: 1.5rem;
+}
+.home-left .info ul::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    background-color: var(--yellow-color);
+    top: 0px;
+    bottom: 0px;
+}
+.home-left .info a{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+
+
+
+.home-right{
+    width: 50%;
+}
+.home-right img{
+    width: 100%;
+    padding: 2rem;
+    object-fit: cover;
+}
