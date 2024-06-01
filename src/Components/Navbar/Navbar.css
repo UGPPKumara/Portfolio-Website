@@ -13,12 +13,14 @@
 
 }
 .nav-items ul{
+ 
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     width: 100%;
 }
+
 .navbar-logo{
     display: flex;
     align-items: center;
@@ -45,8 +47,18 @@
     justify-content: center;
     gap: 2rem;
     width: 100%;
-    cursor: pointer;
+    /* cursor: pointer; */
     color: var(--main-color);
+    text-decoration: none;
+}
+.nav-items ul li a{
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: var(--yellow-color);
+
 }
 
 .footer{

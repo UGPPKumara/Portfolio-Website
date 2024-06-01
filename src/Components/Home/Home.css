@@ -54,7 +54,7 @@
     border: 2px solid var(--dark-color);
     color: var(--white);
     border-radius: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */
     font-family: "Karla", sans-serif;
     font-size: 16px;
 }
@@ -70,7 +70,7 @@
     color: var(--main-color);
     border: 2px solid var(--main-color);
     border-radius: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */
     font-family: "Karla", sans-serif;
     font-size: 16px;
 }
@@ -90,7 +90,11 @@
     position: relative;
 }
 .home-left .info ul li{
-    padding-left: 1.5rem;
+    padding-left: 1rem;
+}
+.home-left .info ul li a:hover{
+    color: var(--yellow-color);
+
 }
 .home-left .info ul::before{
     position: absolute;

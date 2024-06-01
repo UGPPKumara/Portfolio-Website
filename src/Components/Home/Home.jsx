@@ -41,9 +41,9 @@ const Home = () => {
 
           <div className="info">
             <ul>
-              <li className="phone">+94755111360</li>
+              <li className="phone"><a href="">+94755111360</a></li>
               <li className="email"><a href="">u.g.p.pushpakumara@gmail.com</a></li>
-              <li className="address">Colombo, Sri Lanka</li>
+              <li className="address"><a href="">Udamulle Geadara, Warakapitiya, Ulapane</a></li>
             </ul>
           </div>
       </div>

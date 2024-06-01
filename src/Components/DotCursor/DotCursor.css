@@ -1,0 +1,38 @@
+/* src/DotCursor.css */
+body {
+  cursor: none; /* Hide the default cursor */
+}
+
+.cursor-dot,
+.cursor-trail {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none; /* Prevent the cursor from interacting with the dot */
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease-in-out, width 0.2s ease-in-out, height 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+}
+
+.cursor-trail {
+  width: 24px;
+  height: 24px;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.hovered.cursor-dot {
+  background-color: red; /* Change color on hover */
+  width: 12px;
+  height: 12px;
+}
+
+.hovered.cursor-trail {
+  background-color: rgba(255, 0, 0, 0.1); /* Change color on hover */
+  width: 32px;
+  height: 32px;
+}
