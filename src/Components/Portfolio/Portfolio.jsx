@@ -14,7 +14,36 @@ const Portfolio = () => {
           <h1 className="card-title">
             App UI design
           </h1>
-          
+        </div>
+        <div className="card">
+            <img src={image1} alt=""/>
+          <h1 className="card-title">
+            App UI design
+          </h1>
+        </div>
+        <div className="card">
+            <img src={image1} alt=""/>
+          <h1 className="card-title">
+            App UI design
+          </h1>
+        </div>
+        <div className="card">
+            <img src={image1} alt=""/>
+          <h1 className="card-title">
+            App UI design
+          </h1>
+        </div>
+        <div className="card">
+            <img src={image1} alt=""/>
+          <h1 className="card-title">
+            App UI design
+          </h1>
+        </div>
+        <div className="card">
+            <img src={image1} alt=""/>
+          <h1 className="card-title">
+            App UI design
+          </h1>
         </div>
       </div>
     </div>

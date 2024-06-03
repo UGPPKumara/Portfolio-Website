@@ -1,7 +1,7 @@
 .my-portfolio{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   /* align-items: center; */
   width: 100%;
   height: 100vh;
@@ -19,11 +19,16 @@
 .my-portfolio .title span{
   color: var(--blue-color);
 }
-.portfolio-card{
+.portfolio-cards{
   display: flex;
-  flex-direction: row;
+  flex-direction: flex-wrap;
+  flex-wrap: wrap;
+  gap: 2rem;
   padding: 2rem;
 }
 .card{
-  
+  width: 22%;
+}
+.card img{
+  width: 100%;
 }
