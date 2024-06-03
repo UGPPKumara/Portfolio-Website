@@ -1,8 +1,15 @@
-# React + Vite
+# My Portfolio Website
+<p>I am a multidisciplinary creative, seamlessly blending UX/UI design, front-end development, and graphic design to craft immersive digital experiences. With a keen eye for detail and a deep passion for user-centric design, I bring stories to life through visually compelling and intuitive interfaces. Welcome to my portfolio, where art and technology converge to create captivating digital journeys.</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies
+<p>ReactJS + Vite | Firebase </p>
 
-Currently, two official plugins are available:
+# Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 🌟 [Click Here](https://prasannapushpakumara-portfolio.web.app/) to go to the My Portfolio website 🍽️✨ <br><br>
+
+🌟 [Click Here]() to go to the figma file. 🍽️✨
+
+# ScreenShot
+
+<img src="/src/assets/img/screenshot.png" alt="Prasanna" />
