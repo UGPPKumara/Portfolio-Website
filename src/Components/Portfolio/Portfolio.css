@@ -1,0 +1,29 @@
+.my-portfolio{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(239, 251, 248);
+  /* padding: 2rem; */
+
+}
+.my-portfolio .title{
+  font-size: 3rem;
+  font-family: "Inter", sans-serif;
+  color: var(--dark-color);
+  padding: 1rem;
+  text-align: center;
+}
+.my-portfolio .title span{
+  color: var(--blue-color);
+}
+.portfolio-card{
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+.card{
+  
+}

@@ -12,5 +12,6 @@
 .main{
     font-family: "Karla", sans-serif;
     display: flex;
-    flex-direction: row;
+    flex: 1;
+    /* flex-direction: row; */
 }
